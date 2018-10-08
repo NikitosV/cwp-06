@@ -1,1 +1,7 @@
-# cwp-06
+# Project Title
+
+This is Lab number six
+
+## Authors
+
+* **Nikita Vashkov** - *Initial work* - [cwp-06]()
