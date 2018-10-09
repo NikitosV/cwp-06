@@ -6,7 +6,8 @@ module.exports = {
     read,
     createArticle,
     update,
-    deleteArticle
+    deleteArticle,
+    log
 };
 
 function readall(req, res, payload, cb) {
@@ -98,4 +99,8 @@ function deleteArticle(req, res, payload, cb) {
         error => {
             cb({code: 404, message: 'Not found'});
         })
+}
+
+function log() {
+    console.log("its a log");
 }
