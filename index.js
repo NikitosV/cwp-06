@@ -62,3 +62,11 @@ function parseBodyJson(req, cb) {
         cb(null, params);
     });
 }
+
+// {
+//     "id": 1,
+//     "title": "asas",
+//     "text": "sfhg",
+//     "author": "tyhgfds",
+//     "date": 2019
+// }

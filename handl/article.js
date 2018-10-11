@@ -7,7 +7,6 @@ module.exports = {
     createArticle,
     update,
     deleteArticle,
-    log
 };
 
 function readall(req, res, payload, cb) {
